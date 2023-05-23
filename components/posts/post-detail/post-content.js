@@ -20,12 +20,32 @@ function PostContent(props) {
         />
       );
     },
+    // paragraph(paragrah) {
+    //   const { node } = paragrah;
+
+    //   if (node.children[0].type === "image") {
+    //     const image = node.children[0];
+
+    //     return (
+    //       <div className={classes.image}>
+    //         <Image
+    //           src={`/images/posts/${post.slug}/${image.url}`}
+    //           alt={image.alt}
+    //           width={600}
+    //           height={300}
+    //         />
+    //       </div>
+    //     );
+    //   }
+
+    //   return <p>{paragrah.children}</p>;
+    // },
   };
 
   return (
     <article className={classes.content}>
       <PostHeader title={post.title} image={imagePath} />
-      <ReactMarkdown renderers={customRenderers}>{post.content}</ReactMarkdown>
+      <ReactMarkdown components={customRenderers}>{post.content}</ReactMarkdown>
     </article>
   );
 }
