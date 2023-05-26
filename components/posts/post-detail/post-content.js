@@ -10,7 +10,7 @@ function PostContent(props) {
   const imagePath = `/images/posts/${post.slug}/${post.image} `;
 
   const customRenderers = {
-    // image(image) {
+    // img(image) {
     //   return (
     //     <Image
     //       src={`/images/posts/${post.slug}/${image.src}`}
@@ -20,14 +20,14 @@ function PostContent(props) {
     //     />
     //   );
     // },
-    paragraph(paragrah) {
+    p(paragrah) {
       const { node } = paragrah;
-      if (node.children[0].type === "image") {
+      if (node.children[0].tagName === "img") {
         const image = node.children[0];
         return (
           <div className={classes.image}>
             <Image
-              src={`/images/posts/${post.slug}/${image.url}`}
+              src={`/images/posts/${post.slug}/${image.properties.src}`}
               alt={image.alt}
               width={600}
               height={300}
