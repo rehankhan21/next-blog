@@ -11,6 +11,8 @@ export function getStaticProps(context) {
 
   const postData = getPostData(slug);
 
+  console.log(postData);
+
   return {
     props: {
       post: postData,
