@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-const { Module } = require("module");
 const { PHASE_DEVELOPMENT_SERVER } = require("next/constants");
 
 const nextConfig = {
@@ -10,19 +9,19 @@ module.exports = (phase) => {
   if (phase === PHASE_DEVELOPMENT_SERVER) {
     return {
       env: {
-        mongodb_username: "krehanjs",
-        mongodb_password: "5QCuf9RwiulfZE31",
-        mongodb_clustername: "cluster0",
-        mongodb_database: "my-site-dev",
+        mongodb_username: process.env.DB_USERNAME,
+        mongodb_password: process.env.DB_PASSWORD,
+        mongodb_clustername: process.env.DB_CLUSTER,
+        mongodb_database: process.env.DB_DATABASE_DEV,
       },
     };
   }
   return {
     env: {
-      mongodb_username: "krehanjs",
-      mongodb_password: "5QCuf9RwiulfZE31",
-      mongodb_clustername: "cluster0",
-      mongodb_database: "my-site",
+      mongodb_username: process.env.DB_USERNAME,
+      mongodb_password: process.env.DB_PASSWORD,
+      mongodb_clustername: process.env.DB_CLUSTER,
+      mongodb_database: process.env.DB_DATABASE,
     },
   };
 };
