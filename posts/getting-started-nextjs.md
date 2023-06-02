@@ -2,7 +2,7 @@
 title: Getting Started with Next
 date: "2022-10-15"
 image: getting-started-nextjs.png
-excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet mauris a metus rhoncus varius. Quisque lobortis posuere mi in porttitor. In hac habitasse platea dictumst. Vestibulum condimentum efficitur risus eget eleifend. Vestibulum ultrices faucibus elementum.
+excerpt: Next.js is a React framework that gives you building blocks to create web applications. By framework, we mean Next.js handles the tooling and configuration needed for React, and provides additional structure, features, and optimizations for your application.
 isFeatured: true
 ---
 
@@ -30,4 +30,4 @@ In this article, we'll dive into the core concepts and features NextJS has to of
 
 ![Create routes via your file + folder structure](nextjs-file-based-routing.png)
 
-... More content ...
+[NextJS Documentation](https://nextjs.org/)
