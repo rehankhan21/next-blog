@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 import classes from "./main-navigation.module.css";
-import styles from "./Footer.module.css";
 import Logo from "../layout/logo";
 
 function MainNavigation(params) {
