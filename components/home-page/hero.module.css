@@ -39,3 +39,17 @@
   margin: auto;
   text-align: left;
 }
+
+.hero ul {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.hero li {
+  margin: 0 var(--size-4);
+}
