@@ -14,7 +14,7 @@ SyntaxHighlighter.registerLanguage("css", css);
 function PostContent(props) {
   const { post } = props;
 
-  const imagePath = `/images/posts/${post.slug}/${post.image} `;
+  //const imagePath = `/images/posts/${post.slug}/${post.image} `;
 
   const customRenderers = {
     p(paragrah) {
@@ -28,6 +28,7 @@ function PostContent(props) {
               alt={image.alt}
               width={600}
               height={300}
+              style={{ width: "100%" }}
             />
           </div>
         );
@@ -48,7 +49,7 @@ function PostContent(props) {
 
   return (
     <article className={classes.content}>
-      <PostHeader title={post.title} image={imagePath} />
+      <PostHeader post={post} />
       <ReactMarkdown components={customRenderers}>{post.content}</ReactMarkdown>
     </article>
   );
