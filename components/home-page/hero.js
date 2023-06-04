@@ -24,7 +24,7 @@ function Hero() {
       <br></br>
       <p>
         I created this website using technologies such as React, TypeScript,
-        NextJS, CSS, NodeJS, and Mongodb. I made a few blog post down below that
+        NextJS, CSS, NodeJS, and MongoDB. I made a few blog post down below that
         go into these technologies in more detail.
       </p>
     </section>

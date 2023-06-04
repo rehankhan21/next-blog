@@ -1,3 +1,7 @@
+.body {
+  height: 100vh;
+}
+
 .contact {
   margin: var(--size-8) auto;
   border-radius: 6px;

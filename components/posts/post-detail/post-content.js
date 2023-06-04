@@ -49,7 +49,7 @@ function PostContent(props) {
 
   return (
     <article className={classes.content}>
-      <PostHeader post={post} />
+      <PostHeader title={post.title} />
       <ReactMarkdown components={customRenderers}>{post.content}</ReactMarkdown>
     </article>
   );
