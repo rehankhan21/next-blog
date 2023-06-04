@@ -9,7 +9,7 @@ function Home(props) {
   return (
     <Fragment>
       <Head>
-        <title>Blog</title>
+        <title>Portfolio</title>
         <meta name="description" content="Welcome to my portfolio" />
       </Head>
       <Hero />
