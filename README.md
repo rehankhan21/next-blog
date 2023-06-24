@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Hosted on https://next-portfolio-3tsgywjjw-rehankhan21.vercel.app/
+Hosted on [https://next-portfolio-3tsgywjjw-rehankhan21.vercel.app/](https://next-portfolio-six-snowy.vercel.app/)
 
 ## Getting Started
 
