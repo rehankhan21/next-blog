@@ -13,6 +13,8 @@ Demo Account:
 - Email: test@mail.com
 - Password: 1234
 
+[GitHub Repo](https://github.com/rehankhan21/next-messenger)
+
 This app was created using tools and frameworks such as:
 
 - Next.js 13
