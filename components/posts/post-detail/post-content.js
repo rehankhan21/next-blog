@@ -28,7 +28,7 @@ function PostContent(props) {
               alt={image.alt}
               width={600}
               height={300}
-              style={{ width: "100%" }}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
         );
