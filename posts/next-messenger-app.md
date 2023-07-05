@@ -24,5 +24,3 @@ This app was created using tools and frameworks such as:
 - Mongodb with Prisma
 
 ![Next Messenger Image](next-messenger-md.png)
-
-# [Click Here For The Hosted App](https://next-messenger-two.vercel.app/)

@@ -69,10 +69,10 @@ function Hero() {
       </p>
       <br></br>
       <p>
-        I have a few apps as well as a few blog post down below that go into
-        these technologies in more detail. I created this website using
-        technologies such as React, TypeScript, NextJS, CSS, NodeJS, and
-        MongoDB.
+        I have a few apps and blog post down below that go into these
+        technologies in more detail. I created these websites using technologies
+        such as React, TypeScript, NextJS, Tailwind, CSS, NodeJS, and
+        MongoDB/SQL.
       </p>
     </section>
   );
